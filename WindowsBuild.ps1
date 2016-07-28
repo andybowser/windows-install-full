@@ -12,7 +12,7 @@ if (Test-PendingReboot) { Invoke-Reboot }
 
 # Basic setup
 Update-ExecutionPolicy Unrestricted
-Set-ExplorerOptions -showFileExtensions
+Set-WindowsExplorerOptions -EnableShowFileExtensions
 Enable-RemoteDesktop
 Disable-InternetExplorerESC
 Disable-UAC
