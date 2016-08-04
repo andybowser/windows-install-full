@@ -3,11 +3,6 @@ $Boxstarter.RebootOk=$true # Allow reboots?
 $Boxstarter.NoPassword=$false # Is this a machine with no login password?
 $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a reboot
 
-#### .NET 3.5 ####
-
-cinst dotnet3.5 -y # Not automatically installed. Includes .NET 2.0. Uses Windows Features to install.
-if (Test-PendingReboot) { Invoke-Reboot }
-
 #### WINDOWS SETTTINGS #####
 
 # Basic setup
