@@ -13,7 +13,7 @@ Disable-InternetExplorerESC
 Disable-UAC
 Disable-BingSearch
 Disable-InternetExplorerESC
-Set-TaskbarSmall
+# Set-TaskbarSmall
 
 # disable defrag because I have an SSD
 # Get-ScheduledTask -TaskName *defrag* | Disable-ScheduledTask
